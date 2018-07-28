@@ -29,6 +29,8 @@ guessSubmit.addEventListener('click', checkGuess);
 	- 'click' is the event that the '.addEventListener' looks out for
 	- In the case that 'guessSubmit' is clicked, then 'checkGuess' fires, which is a function I created
 
+SETTING THE TEXT INPUT/BUTTON '.disabled' PROPERTY TO TRUE:
+	- setting .disabled = true prevents additional inputs from being added
 
 
 
