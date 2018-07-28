@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>Apply JavaScript example</title>
-  </head>
-  <script src="script.js" defer>
-  	document.addEventListener("DOMContentLoaded", function() {
   		function createParagraph() {
   			var para = document.createElement('p');
   			para.textContent = 'You clicked the button!';
@@ -17,9 +9,3 @@
   		for(var i = 0; i < buttons.length; i++) {
   			buttons[i].addEventListener('click', createParagraph);
   		}
-  	});
-  </script>
-  <body>
-    <button onclick="createParagraph()"> Click me </button>
-  </body>
-</html>
