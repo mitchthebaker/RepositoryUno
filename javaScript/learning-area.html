@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Apply JavaScript example</title>
   </head>
-  <script src="script.js" defer>
+  <script src="script.js" async>
   	document.addEventListener("DOMContentLoaded", function() {
   		function createParagraph() {
   			var para = document.createElement('p');
@@ -21,5 +21,13 @@
   </script>
   <body>
     <button onclick="createParagraph()"> Click me </button>
+    <button onclick="createParagraph()"> Click me </button>
+    <button onclick="createParagraph()"> Click me </button>
   </body>
 </html>
+
+<!-- LINE 15: .querySelectorAll attribute allows you to select every single element. In this case, it selects all 'button' elements -->
+
+<!-- ASYNC VS DEFER: 
+	- Using "async" downloads scripts on the page without blocking the rendering of the rest of the page.. basically it gives no guarantee as to what order scripts will run in
+	- Using "defer" runs scripts in the order that they appear in the page and executes the script as soon as content is downloaded -->
