@@ -1,0 +1,37 @@
+.querySelectorAll attribute allows you to select every single element. In this case, it selects all 'button' elements 
+
+ASYNC VS DEFER: 
+	- Using "async" downloads scripts on the page without blocking the rendering of the rest of the page.. basically it gives no guarantee as to what order scripts will run in
+	- Using "defer" runs scripts in the order that they appear in the page and executes the script as soon as content is downloaded 
+
+OPERATORS:
+
+"===" is a strict equality, is it exactly the same to what you are comparing?
+"!==" is a non-equality, is it not the same?
+"<" is less than
+">" is greater than 
+
+SETTING A VALUE TO A VARIABLE:
+
+var userGuess = Number(guessField.value);
+	- the Number() method is just a second check in order to make sure the input is actually a number 
+	- guessField is the input area within a form I created.. by using .value method, whatever number is inputted
+	   will be set to variable 'userGuess'
+
+EVENTLISTENERS:
+	- Events are things that happen with a browser.. a button being clicked, a page loading, etc.
+	- The constructs that listen out for the event happening are called 'event listeners'
+	- the blocks of code that run in response to the event firing are called 'event handlers'
+
+guessSubmit.addEventListener('click', checkGuess);
+	- guessSubmit is the class name for a Submit button within a form
+	- '.addEventListener' is the method we use, and it takes two values which are called ARGUMENTS
+	- 'click' is the event that the '.addEventListener' looks out for
+	- In the case that 'guessSubmit' is clicked, then 'checkGuess' fires, which is a function I created
+
+
+
+
+ADDITIONAL NOTES: 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+	- alert('text here'); displays a little text box with whatever the hell you want in that bish
