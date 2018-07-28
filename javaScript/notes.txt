@@ -32,6 +32,19 @@ guessSubmit.addEventListener('click', checkGuess);
 SETTING THE TEXT INPUT/BUTTON '.disabled' PROPERTY TO TRUE:
 	- setting .disabled = true prevents additional inputs from being added
 
+BROWSER OBJECTS:
+
+	- .value property represents the current value entered into a text field
+	- guesses.textContent = 'Where is my paragraph?';
+		- guesses is a <p> element, and .textContent is used in order to change the text inside a paragraph
+	- by utilizing .style I can add CSS specific styles to whatever element I wish to manipulate
+		- guesses.style.backgroundColor = 'yellow';
+		- guesses.style.fontSize = '200%';
+		- guesses.style.padding = '10px';
+		- guesses.style.boxShadow = '3px 3px 6px black';
+
+
+
 
 
 ADDITIONAL NOTES: 
