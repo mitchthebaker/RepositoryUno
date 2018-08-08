@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ticTacToe Bitch ! </title>
+	<link type="text/css" rel="stylesheet" href="ticTacToe.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<h1> ticTacToe </h1>
+	<p> The premise behind the beautifully designed game of ticTacToe involves two players battling it out against each other while they decide who can reach three in a row with their mark of choice. The player can choose either X's or O's to play.. </p>
+
+	<div>
+		<h2> Decide who plays with the "X" mark by choosing an option below: </h2>
+			<button id="player1Checkbox"> X </button>
+			<button id="player2Checkbox"> O </button>	
+	</div>
+	<div class="board">
+		<p class="currentPlayer"> </p>
+		<div class="top">
+			<p class="square" id="sq-1">
+			</p>
+			<p class="square" id="sq-2">
+			</p>
+			<p class="square" id="sq-3">
+			</p>
+		</div>
+		<div class="middle">
+			<p class="square" id="sq-4">
+			</p>
+			<p class="square" id="sq-5">
+			</p>
+			<p class="square" id="sq-6">
+			</p>
+		</div>
+		<div class="bottom">
+			<p class="square" id="sq-7">
+			</p>
+			<p class="square" id="sq-8">
+			</p>
+			<p class="square" id="sq-9">
+			</p>
+		</div>
+	</div>
+
+	<script>
+		var player1Checkbox = document.querySelector('#player1Checkbox');
+		var player2Checkbox = document.querySelector('#player2Checkbox');
+		var currentPlayer = document.querySelector('.currentPlayer');
+
+		var sq-1 = document.querySelector('#sq-1');
+		var sq-2 = document.querySelector('#sq-2');
+		var sq-3 = document.querySelector('#sq-3');
+		var sq-4 = document.querySelector('#sq-4');
+		var sq-5 = document.querySelector('#sq-5');
+		var sq-6 = document.querySelector('#sq-6');
+		var sq-7 = document.querySelector('#sq-7');
+		var sq-8 = document.querySelector('#sq-8');
+		var sq-9 = document.querySelector('#sq-9');
+
+		var = resetButton;
+
+		player1Checkbox.onclick = checkPlayer;
+
+		function checkPlayer()
+		{
+			if(player1Checkbox.onclick === true)
+			{
+				currentPlayer = player1Checkbox;
+				console.log('if');
+			}
+			else
+			{
+				currentPlayer = player2Checkbox;
+				console.log('else');
+			}
+			console.log('hey');
+		}
+	</script>
+</body>
+</html>
