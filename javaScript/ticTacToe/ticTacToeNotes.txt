@@ -1,0 +1,8 @@
+Breaking down this mini project in steps:
+
+1. Create basic UI interface that makes sense and is easy to use 
+2. this game will be player vs. player, no computer involved. This means that I need some sort of element displaying who's turn it is after a choice ('click') has been made 
+3. I also need to display to the players who wants to be X's/O's
+4. I need to design an algorithm that changes between X's and O's for each turn
+5. It seems like there is 8 possible choices when winning.. (top across, middle across, bottom across, left down, middle down, right down, and the two diagonals) after one of these choices are achieved, I need to prevent further choices from being made 
+6. I should create a reset button that resets the whole game to it's original settings 
