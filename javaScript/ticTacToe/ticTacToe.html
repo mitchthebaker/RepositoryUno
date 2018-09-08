@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> ticTacToe Bitch ! </title>
+	<meta charset="utf-8">
+	<title> ticTacToe ! </title>
 	<link type="text/css" rel="stylesheet" href="ticTacToe.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
+<script>
+	var square = document.querySelector('.square');
+	var attempts = 0;
+	var x;
+
+	document.getElementById("square").addEventListener('click', function(event) );
+
+	function XorO()
+	{
+		x = document.createElement('p');
+		x.textContent = 'X';
+		x.style.backgroundColor = 'red';
+		document.div.appendChild(x);
+	}
+</script>
 <body>
 	<h1> ticTacToe </h1>
 	<p> The premise behind the beautifully designed game of ticTacToe involves two players battling it out against each other while they decide who can reach three in a row with their mark of choice. The player can choose either X's or O's to play.. </p>
@@ -16,34 +32,17 @@
 	</div>
 	<div class="board">
 		<p class="currentPlayer"> </p>
-		<div class="top">
-			<p class="square" id="sq-1">
-			</p>
-			<p class="square" id="sq-2">
-			</p>
-			<p class="square" id="sq-3">
-			</p>
-		</div>
-		<div class="middle">
-			<p class="square" id="sq-4">
-			</p>
-			<p class="square" id="sq-5">
-			</p>
-			<p class="square" id="sq-6">
-			</p>
-		</div>
-		<div class="bottom">
-			<p class="square" id="sq-7">
-			</p>
-			<p class="square" id="sq-8">
-			</p>
-			<p class="square" id="sq-9">
-			</p>
-		</div>
+		
+			<div class="square" id="square">
+			</div>
 	</div>
 
-	<script>
-		var player1Checkbox = document.querySelector('#player1Checkbox');
+</body>
+</html>
+
+<!-- 
+
+var player1Checkbox = document.querySelector('#player1Checkbox');
 		var player2Checkbox = document.querySelector('#player2Checkbox');
 		var currentPlayer = document.querySelector('.currentPlayer');
 
@@ -66,7 +65,5 @@
 
 			}
 		}
-		
-	</script>
-</body>
-</html>
+
+		-->
