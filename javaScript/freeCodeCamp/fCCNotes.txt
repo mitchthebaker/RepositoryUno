@@ -1,0 +1,8 @@
+"while" loop runs WHILE a specified condition is true and stops once that conidtion is no longer true
+
+var ourArray = [];
+var i = 0;
+while(i < 5) {
+  ourArray.push(i);
+  i++;
+} 
