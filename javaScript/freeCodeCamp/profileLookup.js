@@ -81,3 +81,23 @@ function lookUpProfile(name, prop)
 }
 
 lookUpProfile("Akira", "likes");
+
+/* * * * * * * * * * * * * * * * * *
+                                   *
+                                   *
+ * * * * * * * * * * * * * * * * * */
+
+//Other practice programs from freeCodeCamp:
+
+function checkEqual(a, b) {
+  return a == b ? "true" : "false";
+}
+
+console.log(checkEqual(1, 1));
+
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater";
+}
+
+console.log(findGreater(5,3));
+
