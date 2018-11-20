@@ -1,0 +1,2 @@
+onload="load();" ----> If I put this into the <body> tag, whatever function name 
+I input into the element will then be executed
