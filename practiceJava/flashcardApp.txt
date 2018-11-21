@@ -1,0 +1,14 @@
+		flashcard App:
+
+I could and should definitely develop this app with javaScript, at least for the front-end side of things. In regards to the backend/database side of things, I can definitely do the backend with Java. 
+	- Of course there is the option to develop the back-end with Javascript which would defintiely be interesting to do. I should keep this in mind while also trying to figure out how the process works with Java. Learning Java is definitely a useful skill and I should learn how to do it either way.
+
+Anyway, I should outline the steps I want to create in order to develop this flashcard App:
+
+1. I need to develop the UI end of things. It will be basic at first but I was initially thinking of an App similar to what Quizlet does. 
+2. I need to develop an input/output type of deal where the user can input the necessary data. 
+	a. There will be two sets of data for each flashcard. Maybe a map would be good for this as I can store two values? There are quite a bit of data structures that I can utilize. (I can check out my notes for these later)
+3. I need to include a way for the user to add new cards to their deck. This could be a <div>/<button> below a main <div> where all the current cards that have been created are being displayed. 
+4. I also need to include a button that allows the user to finish their set once they have included all the cards they want
+5. After they are finished, the cards need to be used and practiced.
+	a. Include an option where the user can switch between the definition/answer
