@@ -1,1 +1,3 @@
-This is the first line of README.txt
+A practice repository
+
+Repository currently depreciated.. no longer being used for projects
